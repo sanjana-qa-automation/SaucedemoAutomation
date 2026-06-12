@@ -14,6 +14,7 @@ public class AddToCartTest {
     public void setup() {
         driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
+        driver.get("https://www.saucedemo.com/");
         loginPage = new LoginPage(driver);
         inventoryPage = new InventoryPage(driver);
         loginPage.login("standard_user", "secret_sauce");
